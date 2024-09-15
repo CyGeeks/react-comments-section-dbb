@@ -98,7 +98,7 @@ const CommentStructure = ({
 
   const replyBottomSection = () => {
     return (
-      <div className='halfDiv'>
+      <div className='halfDiv hidden'>
         <div className='userInfo'>
           {userInfo()}
           {globalStore.advancedInput ? (
