@@ -4,7 +4,7 @@ const NoComments = () => {
   return (
     <div className='no-comDiv'>
       {' '}
-      No comments here. Be the first one to comment!
+      এখন পর্যন্ত এই নিউজ এ কেউ কোনো মন্তব্য করেননি । আপনিই প্রথম মন্তব্যকারী হন !
     </div>
   )
 }
