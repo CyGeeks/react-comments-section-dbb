@@ -78,11 +78,7 @@ const CommentSection = ({
                       ? false
                       : true
                   }
-                  replyMode={
-                    _.indexOf(globalStore.replyArr, i.comId) === -1
-                      ? false
-                      : true
-                  }
+                  replyMode={false}
                   logIn={logIn}
                 />
                 {i.replies &&
