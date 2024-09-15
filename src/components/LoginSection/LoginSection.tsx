@@ -9,7 +9,7 @@ interface LoginSectionProps {
 const LoginSection = ({ loginLink, signUpLink }: LoginSectionProps) => {
   return (
     <div className='signBox'>
-      <div className='signLine'>Log in or sign up to leave a comment</div>
+      <div className='signLine'>মন্তব্য করতে লগ ইন করুন অথবা সাইন আপ করুন</div>
       <div>
         <a href={loginLink}>
           <button className='loginBtn' name='login'>
