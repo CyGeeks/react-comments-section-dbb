@@ -10,15 +10,15 @@ const LoginSection = ({ loginLink, signUpLink }: LoginSectionProps) => {
   return (
     <div className='signBox'>
       <div className='signLine'>মন্তব্য করতে লগ ইন করুন অথবা সাইন আপ করুন</div>
-      <div>
+      <div className="gap-y-6">
         <a href={loginLink}>
           <button className='loginBtn' name='login'>
-            Log In
+            লগ ইন
           </button>
         </a>
         <a href={signUpLink}>
           <button className='signBtn' name='signup'>
-            Sign Up
+            সাইন আপ
           </button>
         </a>
       </div>
