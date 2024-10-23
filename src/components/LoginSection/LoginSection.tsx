@@ -8,7 +8,7 @@ interface LoginSectionProps {
 
 const LoginSection = ({ loginLink, signUpLink }: LoginSectionProps) => {
   return (
-    <div className='signBox'>
+    <div className='signBox px-4'>
       <div className='signLine'>মন্তব্য করতে লগ ইন করুন অথবা সাইন আপ করুন</div>
       <div className="gap-y-6 flex flex-col md:flex-row">
         <a href={loginLink}>

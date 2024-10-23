@@ -111,7 +111,7 @@ const CommentSection = ({
       ) : customNoComment ? (
         customNoComment()
       ) : (
-        <NoComments />
+        // <NoComments />
       )}
     </div>
   )
